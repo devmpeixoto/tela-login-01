@@ -22,6 +22,7 @@ Lilás: #5f2c82
 
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section > div#imagem{
@@ -50,6 +51,7 @@ Lilás: #5f2c82
     
     section#login{
         width: 950px;
+        height: 320px;
     }
 
     section > div#imagem{
@@ -64,10 +66,11 @@ Lilás: #5f2c82
     }
 
     section > div > h1{
-        font-size: 2em;
+        font-size: em;
     }
 
     section > div > p{
-        font-size: 1.1em;
+        font-size: 1em;
+        padding-bottom: 10px;
     }
 }

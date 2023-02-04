@@ -87,6 +87,33 @@ form label{
     display: none;
 }
 
+div.campo span{
+    color: white;
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+}
+
+div.campo input{
+    background-color: #66e4e0;
+    border-radius: 7px;
+    width: calc(100% - 47px);
+    height: 88%;
+    border: none;
+    box-shadow: 0px 0px #5F2C82;
+    font-size: 1em;
+    padding-left: 5px;
+    outline: none;
+    /* 
+    OUTLINE: serve para tirar a linha ao clicar na caixa
+    */
+    transform: translatey(-10px);
+}
+
+div.campo input:focus-within{
+    background-color: white;
+}
+
 .entrar{
     display: block;
     font-size: 1em;
