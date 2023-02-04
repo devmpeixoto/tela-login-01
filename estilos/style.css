@@ -75,3 +75,54 @@ section > div > h1{
 section > div > p{
     font-size: 0.8em;
 }
+
+div.campo{
+    background-color: #5F2C82;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+form label{
+    display: none;
+}
+
+.entrar{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color: #2a5e5b;
+}
+
+.esqueci{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #2a5e5b;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 5px;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+}
+
+.esqueci:hover{
+    background-color: #2a5e5b;
+    color: white;
+}
+
+.esqueci > span{
+    font-size: medium;
+}
