@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 /* Typical Device Breakpoints
 -----------------------------
@@ -15,7 +15,10 @@ Verde: #49a09d
 Lilás: #5f2c82
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    
+    /* DISPOSITIVO TABLET */
+
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -63,10 +66,6 @@ Lilás: #5f2c82
     section > div#formulario{
         float: left;
         width: 50%;
-    }
-
-    section > div > h1{
-        font-size: em;
     }
 
     section > div > p{
